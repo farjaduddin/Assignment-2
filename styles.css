@@ -1,0 +1,119 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+.margin-control{
+    text-align: center;
+    /* background-color: aqua; */
+
+}
+.margin-control>h1{
+    color: #4267b2;
+    text-decoration: underline;
+}
+
+
+.stylingform {
+            
+            background-color: #0099ff;
+            color: #ffffff;
+            margin: auto;
+            /* margin: 20px 50px 20px 50px; */
+            padding: 10px;
+            line-height:1.5em;
+            border-radius: 30px;
+
+}
+input[type=text]{
+    /* width: 100%; */
+    border: 3px solid #aaa;
+    border-radius: 10px;
+    outline: none;
+    padding:5px;
+    box-sizing: border-box;
+
+}
+input[type=number]{
+    /* width: 100%; */
+    border: 3px solid #aaa;
+    border-radius: 10px;
+    outline: none;
+    padding:5px;
+    box-sizing: border-box;
+
+}
+input[type=email]{
+    /* width: 100%; */
+    border: 3px solid #aaa;
+    border-radius: 10px;
+    outline: none;
+    padding:5px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+th , td{
+    padding-bottom:15px;
+    
+}
+
+.button-controlling {
+    text-align:center;
+}
+.button-controlling  a , button{
+    text-decoration: none;
+    font-size: large    ;
+    color:black;
+    border-radius: 20px;
+    border: 3px solid #aaa;
+
+}
+.button-controlling a {
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+}
+.button-controlling button:hover, a:hover{
+    background-color: #0099ff;
+    color: white;
+}
+.button-controlling button:active, a:active{
+    background-color: #00b9ff;
+    color: beige;
+}
+
+.margin-control>h1{
+    padding:20px;    
+}
+
+
+
+
+
+.styling{
+    
+    text-align: center;
+    
+}
+.styling>h1{
+    color:  green;
+    font-size:52px;
+    margin-top: -10px;
+}
+.styling>h2{
+    color:#4267b2;
+    font-size:26px;
+}
+.styling>a{
+    color:#4267b2;
+    font-size:46px;
+    font-weight: bold;
+}
+
